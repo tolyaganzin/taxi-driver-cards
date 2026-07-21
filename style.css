@@ -48,3 +48,14 @@ img {
   font-weight: bold;
   letter-spacing: 2px;
 }
+
+@media (max-width: 600px) {
+  img {
+    display: flex;
+    max-width: 100%;
+    max-height: auto;
+  }
+  .number {
+    font-size: 34px;
+  }
+}
