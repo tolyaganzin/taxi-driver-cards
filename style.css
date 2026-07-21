@@ -6,24 +6,17 @@ body {
 
 .container {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
   max-width: 100%;
   margin: auto;
   padding: 20px;
+  gap: 20px;
 }
 .container p {
   margin-top: 0px;
-}
-
-.cards-container {
-  width: 100%;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  gap: 20px;
-  flex-wrap: wrap;
 }
 
 h1 {
@@ -41,8 +34,8 @@ h1 {
 
 img {
   display: flex;
-  max-width: 450px;
-  max-height: 450px;
+  max-width: 550px;
+  max-height: 550px;
 }
 
 .mono {
@@ -51,7 +44,7 @@ img {
 
 .number {
   margin-top: 15px;
-  font-size: 22px;
+  font-size: 42px;
   font-weight: bold;
   letter-spacing: 2px;
 }
