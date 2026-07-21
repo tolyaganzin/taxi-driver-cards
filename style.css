@@ -34,8 +34,8 @@ h1 {
 
 img {
   display: flex;
-  max-width: 550px;
-  max-height: 550px;
+  max-width: 500px;
+  max-height: 500px;
 }
 
 .mono {
